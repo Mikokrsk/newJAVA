@@ -1,3 +1,24 @@
-# newJAVA
-## WUNY
-### asdasfadf
+using System;
+
+namespace лаб_1_2курс_
+{
+  
+     class Program
+    {
+        static void Main(string[] args)
+        {
+            Class1 q = new Class1();
+            Class2 e = new Class2();
+            Class3 r = new Class3();
+              q.zav1();
+              q.cal();
+              q.outp();
+              e.zav2();
+              r.zav3();
+              r.cal2();
+        }
+    }
+    class Class3
+    {
+          double  s, t,a,b,h1,h2,h3,h4,h11,j,h;
+        public void zav3()
